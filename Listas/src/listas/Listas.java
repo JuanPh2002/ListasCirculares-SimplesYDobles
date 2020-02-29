@@ -23,32 +23,32 @@ public class Listas {
         Scanner teclado = new Scanner(System.in);
         
         //LISTAS CIRCULARES SIMPLES
-//        CircularSinglyLinkedList<Integer> myCSLL = new CircularSinglyLinkedList<>();
-//        CircularSinglyLinkedList<Integer> myCSLL2 = new CircularSinglyLinkedList<>();
-//        CircularSinglyLinkedList<Integer> myCSLL3 = new CircularSinglyLinkedList<>();
-//        
-//        myCSLL.add(99);
-//        myCSLL.addOrderedMToM(10);
-//        myCSLL.addOrderedMToM(55);
-//        myCSLL.addOrderedMToM(44);
-//        myCSLL.addOrderedMToM(85);
-//        
-//        myCSLL2.add(109);
-//        myCSLL2.add(98);
-//        myCSLL2.add(56);
-//        myCSLL2.addOrderedMToM(35);
-//        myCSLL2.addOrderedMToM(15);
-//        myCSLL2.addOrderedMToM(50);
-//        
-//        System.out.println("Contenido de la primera lista circular simple: " + myCSLL.showData());
-//        System.out.println("Contenido de la segunda lista circular simple: " + myCSLL2.showData());
-//        System.out.println("Recorrer lista circular simple desde (Ingrese dato): ");
-//        int d = teclado.nextInt();
-//        System.out.println("Contenido de la lista circular simple desde " + d + ": " + myCSLL.recorrerDesde(d));
-//        System.out.println("\n Uniendo lista 1 con lista 2 \n");
-//        Thread.sleep(1000);
-//        myCSLL3 = myCSLL.unirListas(myCSLL2);
-//        System.out.println("Contenido de la tercer lista circular simple: " + myCSLL3.showData());
+        CircularSinglyLinkedList<Integer> myCSLL = new CircularSinglyLinkedList<>();
+        CircularSinglyLinkedList<Integer> myCSLL2 = new CircularSinglyLinkedList<>();
+        CircularSinglyLinkedList<Integer> myCSLL3 = new CircularSinglyLinkedList<>();
+        
+        myCSLL.add(99);
+        myCSLL.addOrderedMToM(10);
+        myCSLL.addOrderedMToM(55);
+        myCSLL.addOrderedMToM(44);
+        myCSLL.addOrderedMToM(85);
+        
+        myCSLL2.add(109);
+        myCSLL2.add(98);
+        myCSLL2.add(56);
+        myCSLL2.addOrderedMToM(35);
+        myCSLL2.addOrderedMToM(15);
+        myCSLL2.addOrderedMToM(50);
+        
+        System.out.println("Contenido de la primera lista circular simple: " + myCSLL.showData());
+        System.out.println("Contenido de la segunda lista circular simple: " + myCSLL2.showData());
+        System.out.println("Recorrer lista circular simple desde (Ingrese dato): ");
+        int d = teclado.nextInt();
+        System.out.println("Contenido de la lista circular simple desde " + d + ": " + myCSLL.recorrerDesde(d));
+        System.out.println("\n Uniendo lista 1 con lista 2 \n");
+        Thread.sleep(1000);
+        myCSLL3 = myCSLL.unirListas(myCSLL2);
+        System.out.println("Contenido de la tercer lista circular simple: " + myCSLL3.showData());
         
         
           //LISTAS CIRCULARES DOBLES
